@@ -61,4 +61,7 @@ apt-get install geany -y
 echo "
 Geany Done +
 ";
-
+gem install zsteg -y
+echo "
+Zsteg Done +
+";
