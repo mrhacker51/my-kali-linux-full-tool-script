@@ -72,6 +72,10 @@ apt-get install fcrackzip
 echo "
 Fcrackzip Done +
 ";
+apt-get install gimp -y
+echo "
+Gimp İmage Edit Done +
+";
 echo "
 Sublime Text Started +
 ";
