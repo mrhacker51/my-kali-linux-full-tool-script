@@ -111,3 +111,9 @@ git clone https://github.com/mrhacker51/steghide-crack.git
 git clone https://github.com/noobtechie/Barcode-Removal.git
 git clone https://github.com/volatilityfoundation/volatility.git
 git clone https://github.com/mrhacker51/RSA-Cipher-Decoder.git
+
+
+echo "
+Wget Command Tool
+";
+wget https://github.com/eugenekolo/sec-tools/blob/master/stego/stegsolve/stegsolve/stegsolve.jar
