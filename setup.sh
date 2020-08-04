@@ -20,6 +20,22 @@ Setuptools Python
 apt-get install python-setuptools -y
 apt-get install python3-setuptools -y
 
+
+echo "
+Library Packet Python3-pip calismasi icin
+";
+apt-get install gcc-9-base
+
+echo "
+Python pip
+";
+apt-get install python-pip
+
+echo "
+Python3 pip
+";
+apt-get install python3-pip
+
 echo "
 Finished Setuptools Python
 ";
@@ -97,12 +113,6 @@ sudo apt-get install sublime-text
 echo "
 Sublime Text Done +
 ";
-echo "
-Python New Pip3 +++
-";
-curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-python get-pip.py
-python3 get-pip.py
 echo "
 +++ Started +++
 +++ Downloads Folder +++ 
