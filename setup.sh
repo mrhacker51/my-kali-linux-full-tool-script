@@ -66,6 +66,13 @@ echo "
 Zsteg Done +
 ";
 echo "
+FcrackZip Download +
+";
+apt-get install fcrackzip
+echo "
+Fcrackzip Done +
+";
+echo "
 Sublime Text Started +
 ";
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
