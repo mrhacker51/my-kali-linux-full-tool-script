@@ -117,6 +117,8 @@ echo "
 +++ Started +++
 +++ Downloads Folder +++ 
 ";
+
+cd /Downloads/
 git clone https://github.com/mrhacker51/steghide-crack.git
 git clone https://github.com/noobtechie/Barcode-Removal.git
 git clone https://github.com/volatilityfoundation/volatility.git
@@ -140,7 +142,7 @@ rm -rf ghidra_9.1.2_PUBLIC_20200212.zip
 echo "
 gdb Download ++ gef tool
 ";
-apt-get install gdb -y
+apt-get install gdb
 wget -O ~/.gdbinit-gef.py -q https://tinyurl.com/gef-master
 echo source ~/.gdbinit-gef.py >> ~/.gdbinit
 
