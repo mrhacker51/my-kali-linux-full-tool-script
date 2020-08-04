@@ -14,35 +14,55 @@ echo "
 Fix update + Done
 ";
 
-apt-get install dsniff -y
+echo "
+Setuptools Python
+";
+apt-get install python-setuptools -y
+apt-get install python3-setuptools -y
+
+echo "
+Finished Setuptools Python
+";
+
+echo "
+Sonic visual start
+";
+
+apt-get install sonic-visualiser
+
+echo "
+Finish Sonic
+";
+
+apt-get install dsniff
 echo "
 Dsniff Done +
 ";
-apt-get install exiftool -y
+apt-get install exiftool
 echo "
 Exiftool Done +
 ";
-apt-get install leafpad -y
+apt-get install leafpad
 echo "
 Leafpad Edit Done +
 ";
-apt-get install bless -y
+apt-get install bless
 echo "
 Bless Hex Edit Done +
 ";
-apt-get install audacity -y
+apt-get install audacity
 echo "
 Audacity Done +
 ";
-apt-get install steghide -y
+apt-get install steghide
 echo "
 Steghide Done +
 ";
-apt-get install stegsnow -y
+apt-get install stegsnow
 echo "
 Stegsnow Done +
 ";
-apt-get install geany -y
+apt-get install geany
 echo "
 Geany Done +
 ";
