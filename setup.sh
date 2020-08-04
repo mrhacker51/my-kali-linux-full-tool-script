@@ -26,10 +26,6 @@ apt-get install leafpad -y
 echo "
 Leafpad Edit Done +
 ";
-apt-get install sonic-visualiser -y
-echo "
-Sonic Visualiser Done +
-";
 apt-get install bless -y
 echo "
 Bless Hex Edit Done +
