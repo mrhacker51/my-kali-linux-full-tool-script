@@ -78,10 +78,15 @@ echo "
 Sublime Text Done +
 ";
 echo "
+Python New Pip3 +++
+";
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
+python3 get-pip.py
+echo "
 +++ Started +++
 +++ Downloads Folder +++ 
 ";
-cd Downloads
 git clone https://github.com/mrhacker51/steghide-crack.git
 git clone https://github.com/noobtechie/Barcode-Removal.git
 git clone https://github.com/volatilityfoundation/volatility.git
