@@ -117,3 +117,11 @@ echo "
 Wget Command Tool
 ";
 wget https://github.com/eugenekolo/sec-tools/blob/master/stego/stegsolve/stegsolve/stegsolve.jar
+
+
+echo "
+Reverse Engineers + Decomplier Tool Ghidra + İda Pro + gdb + gef Pwn Tool
+";
+wget https://www.ghidra-sre.org/ghidra_9.1.2_PUBLIC_20200212.zip
+unzip ghidra_9.1.2_PUBLIC_20200212.zip
+apt-get install default-jdk
