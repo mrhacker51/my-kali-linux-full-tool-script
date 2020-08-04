@@ -49,4 +49,11 @@ apt-get install audacity -y
 echo "
 Audacity Done +
 ";
-
+apt-get install steghide -y
+echo "
+Steghide Done +
+";
+apt-get install stegsnow -y
+echo "
+Stegsnow Done +
+";
