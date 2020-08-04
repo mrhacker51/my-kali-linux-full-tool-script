@@ -76,6 +76,10 @@ apt-get install gimp -y
 echo "
 Gimp İmage Edit Done +
 ";
+apt-get install asleap
+echo "
+Asleap Tool ++ Done Company Network User Cracker
+";
 echo "
 Sublime Text Started +
 ";
