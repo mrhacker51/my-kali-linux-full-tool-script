@@ -65,3 +65,13 @@ gem install zsteg -y
 echo "
 Zsteg Done +
 ";
+
+echo "
++++ Started +++
++++ Downloads Folder +++ 
+";
+cd Downloads
+git clone https://github.com/mrhacker51/steghide-crack.git
+git clone https://github.com/noobtechie/Barcode-Removal.git
+git clone https://github.com/volatilityfoundation/volatility.git
+
