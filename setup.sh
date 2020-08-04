@@ -9,6 +9,11 @@ echo "
 Update Done +
 ";
 
+apt-get update --fix-missing
+echo "
+Fix update + Done
+";
+
 apt-get install dsniff -y
 echo "
 Dsniff Done +
