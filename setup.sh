@@ -30,10 +30,6 @@ apt-get install python-pip -y
 echo "
 Python Pip 1 Done +
 ";
-apt-get install python3-pip -y
-echo "
-Python Pip3 Done +
-";
 apt-get install exiftool -y
 echo "
 Exiftool Done +
