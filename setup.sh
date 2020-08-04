@@ -110,7 +110,7 @@ rm -rf ghidra_9.1.2_PUBLIC_20200212.zip
 echo "
 gdb Download ++ gef tool
 ";
-apt-get install gdb
+apt-get install gdb -y
 wget -O ~/.gdbinit-gef.py -q https://tinyurl.com/gef-master
 echo source ~/.gdbinit-gef.py >> ~/.gdbinit
 
