@@ -57,3 +57,8 @@ apt-get install stegsnow -y
 echo "
 Stegsnow Done +
 ";
+apt-get install geany -y
+echo "
+Geany Done +
+";
+
