@@ -126,3 +126,10 @@ wget https://www.ghidra-sre.org/ghidra_9.1.2_PUBLIC_20200212.zip
 unzip ghidra_9.1.2_PUBLIC_20200212.zip
 apt-get install default-jdk -y
 rm -rf ghidra_9.1.2_PUBLIC_20200212.zip
+
+echo "
+gdb Download ++ gef tool
+";
+apt-get install gdb
+wget -O ~/.gdbinit-gef.py -q https://tinyurl.com/gef-master
+echo source ~/.gdbinit-gef.py >> ~/.gdbinit
