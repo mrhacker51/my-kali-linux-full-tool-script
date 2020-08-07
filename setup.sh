@@ -1,5 +1,14 @@
 #!/bin/bash
 
+echo "#########################################################"
+
+if [ `whoami` != root ]; then
+    echo "This script must be run as root"
+    exit 1
+fi
+
+echo "#########################################################"
+
 echo "
 *** Packet Started ***
 ";
