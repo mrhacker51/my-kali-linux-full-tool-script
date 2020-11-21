@@ -133,7 +133,6 @@ echo "
 +++ Downloads Folder +++ 
 ";
 
-cd /Downloads/
 git clone https://github.com/mrhacker51/steghide-crack.git
 git clone https://github.com/noobtechie/Barcode-Removal.git
 git clone https://github.com/volatilityfoundation/volatility.git
@@ -165,6 +164,16 @@ echo "LTRACE && STRACE";
 apt-get install ltrace
 apt-get install strace
 echo "LTRACE && STRACE DOWN ENDED";
+
+
+echo "MOBILEANDROID-JADX-JAVA";
+git clone https://github.com/skylot/jadx.git
+cd jadx
+./gradlew dist
+
+echo "MOBILEANDROID-APKTOOL";
+https://github.com/iBotPeaches/Apktool.git
+
 
 echo "
 NetworkMiner >> Network Analyz
