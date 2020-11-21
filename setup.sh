@@ -172,7 +172,7 @@ cd jadx
 ./gradlew dist
 
 echo "MOBILEANDROID-APKTOOL";
-https://github.com/iBotPeaches/Apktool.git
+git clone https://github.com/iBotPeaches/Apktool.git
 
 
 echo "
