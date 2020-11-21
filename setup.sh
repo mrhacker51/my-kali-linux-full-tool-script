@@ -32,7 +32,7 @@ apt-get install python3-setuptools -y
 
 echo "GETPIP START";
 wget https://bootstrap.pypa.io/get-pip.py
-python get-pip.py -y
+python2 get-pip.py
 echo "GETPIP ENDED";
 
 
