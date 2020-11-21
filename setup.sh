@@ -30,6 +30,12 @@ apt-get install python-setuptools -y
 apt-get install python3-setuptools -y
 
 
+echo "GETPIP START";
+wget https://bootstrap.pypa.io/get-pip.py
+python get-pip.py -y
+echo "GETPIP ENDED";
+
+
 echo "
 Library Packet Python3-pip calismasi icin
 ";
@@ -155,6 +161,10 @@ apt-get install gdb
 wget -O ~/.gdbinit-gef.py -q https://tinyurl.com/gef-master
 echo source ~/.gdbinit-gef.py >> ~/.gdbinit
 
+echo "LTRACE && STRACE";
+apt-get install ltrace
+apt-get install strace
+echo "LTRACE && STRACE DOWN ENDED";
 
 echo "
 NetworkMiner >> Network Analyz
